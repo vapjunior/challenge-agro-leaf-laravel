@@ -10,7 +10,6 @@ This project provides a web solution for manage maps and images from satellites.
 - [ ] 5 locations available to search images
 - [ ] Create and auth users with roles (Viewers and Admins)
 - [ ] Admin users can define the specific locations that will get images
-- [ ] 
 - [ ] Admin users controls who is Viewer or Admin
 
 ## Build With
