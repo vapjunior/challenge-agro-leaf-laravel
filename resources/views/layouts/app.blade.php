@@ -33,7 +33,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        @role('Admin')
+                            <li class="nav-item"><a href="" class="nav-link">Usuários</a></li>
+                        @endrole
                     </ul>
 
                     <!-- Right Side Of Navbar -->
