@@ -6,10 +6,10 @@ This project provides a web solution for manage maps and images from satellites.
 
 - [ ] Get satellite images from Agro API
 - [ ] Use LeftLet and GoogleMaps(Satellite)
-- [ ] Use MySQL as database
-- [ ] Use PHP with Laravel
+- [x] Use MySQL as database
+- [x] Use PHP with Laravel
 - [ ] 5 locations available to search images
-- [ ] Create and auth users with roles (Viewers and Admins)
+- [x] Create and auth users with roles (Viewers and Admins)
 - [ ] Admin users can define the specific locations that will get images
 - [ ] Admin users controls who is Viewer or Admin
 
