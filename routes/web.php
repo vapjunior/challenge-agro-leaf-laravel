@@ -20,3 +20,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::middleware(['auth'])->group(function() {
+    Route::get('users', 'UserController@index')->name('users.index');
+    Route::get('users/{id}/edit', 'UserController@edit')->name('users.edit');
+    Route::post('users/{id}/update', 'UserController@update')->name('users.update');
+    Route::get('users/{id}/destroy', 'UserController@destroy')->name('users.destroy');
+       
+});
+   
