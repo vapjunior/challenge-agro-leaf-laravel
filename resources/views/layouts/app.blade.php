@@ -34,7 +34,8 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         @role('Admin')
-                            <li class="nav-item"><a href="{{route('users.index')}}" class="nav-link">Usuários</a></li>
+                            <li class="nav-item"><a href="{{ route('users.index') }}" class="nav-link">Usuários</a></li>
+                            <li class="nav-item"><a href="{{ route('locations.index') }}" class="nav-link">Localizações</a></li>
                         @endrole
                     </ul>
 

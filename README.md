@@ -8,9 +8,9 @@ This project provides a web solution for manage maps and images from satellites.
 - [ ] Use LeftLet and GoogleMaps(Satellite)
 - [x] Use MySQL as database
 - [x] Use PHP with Laravel
-- [ ] 5 locations available to search images
+- [x] 5 locations available to search images
 - [x] Create and auth users with roles (Viewers and Admins)
-- [ ] Admin users can define the specific locations that will get images
+- [x] Admin users can define the specific locations that will get images
 - [x] Admin users controls who is Viewer or Admin
 
 ## Build With
