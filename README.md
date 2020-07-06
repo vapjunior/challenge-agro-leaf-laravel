@@ -21,3 +21,16 @@ This project provides a web solution for manage maps and images from satellites.
 - [Google Maps](https://cloud.google.com/maps-platform/)
 - [AgroMonitoring](https://agromonitoring.com)
 - [LeafLet](https://leafletjs.com)
+
+## Run
+    git clone https://github.com/ValdirJunior/challenge-agro-leaf-laravel.git
+    cd challenge-agro-leaf-laravel
+    composer install
+    cp .env.example .env
+    php artisan key:generate
+    mysql> create database <name_of_your_database>
+    <config your .env with database name, username and password>
+    php artisan migrate
+    php artisan laravel_web:bootstrap
+    php artisan db:seed
+    php artisan serve
